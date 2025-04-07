@@ -14,7 +14,7 @@ public class MoverPlayer : MonoBehaviour
     public float checkRadius = 0.5f;
     public LayerMask whatIsGround;
     private float LastShoot;
-    private int Health = 20; //se cambio la vida
+    private int Health = 10; 
 
     void Start()
     {
