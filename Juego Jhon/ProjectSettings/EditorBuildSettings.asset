@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scena2.unity
     guid: cd7f40f245edbac4db0bc9093256f723
+  - enabled: 1
+    path: Assets/Scenes/ComoJugar.unity
+    guid: b18f62e038914ba40943517c3f0e71a3
   m_configObjects: {}

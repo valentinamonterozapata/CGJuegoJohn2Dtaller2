@@ -16,13 +16,25 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
-    public void LoadScene(string nameScene)
+    public void LoadScene1()
     {
-      SceneManager.LoadScene(nameScene);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void ComoJugar1(string ComoJugar)
+    public void ComoJugar1()
     {
-        SceneManager.LoadScene(ComoJugar);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
+
+    public void VolMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void Salir()
+    {
+               Application.Quit();
+        Debug.Log("Salir");
+    }
+
 }
