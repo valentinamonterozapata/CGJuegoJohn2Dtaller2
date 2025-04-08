@@ -20,4 +20,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
       SceneManager.LoadScene(nameScene);
     }
+
+    public void ComoJugar1(string ComoJugar)
+    {
+        SceneManager.LoadScene(ComoJugar);
+    }
 }
