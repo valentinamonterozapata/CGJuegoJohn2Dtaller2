@@ -31,10 +31,12 @@ public class NewBehaviourScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
-    //public void LoadScene2()
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-    //}
+    public void QuitarSonido()
+    {
+       bool isMuted = AudioListener.volume == 0;
+        AudioListener.volume = isMuted ? 1 : 0;
+        Debug.Log("Quitar Sonido");
+    }
 
     public void Salir()
     {
