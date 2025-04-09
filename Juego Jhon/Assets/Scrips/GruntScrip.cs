@@ -8,13 +8,13 @@ public class GruntScrip : MonoBehaviour
     public GameObject player;
     private float LastShoot;
     private int Health = 1;
-    // Start is called before the first frame update
+    private bool hasCollided = false; // Bandera para evitar múltiples colisiones
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (player == null) return;
@@ -47,13 +47,30 @@ public class GruntScrip : MonoBehaviour
         Health = Health - 1;
         if (Health == 0) Destroy(gameObject);
     }
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        if (hasCollided) return; // Evitar múltiples colisiones
+        hasCollided = true;
+
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Vidas>().PerderVida();
-            
+            Vidas vidas = collision.gameObject.GetComponent<Vidas>();
+            if (vidas != null)
+            {
+                vidas.PerderVida();
+            }
         }
 
+        // Reiniciar la bandera después de un breve tiempo
+        StartCoroutine(ResetCollisionFlag());
+    }
+
+    private IEnumerator ResetCollisionFlag()
+    {
+        yield return new WaitForSeconds(0.1f);
+        hasCollided = false;
     }
 }
+
+

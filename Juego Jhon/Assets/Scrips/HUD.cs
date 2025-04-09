@@ -17,7 +17,6 @@ public class HUD : MonoBehaviour
         }
     }
 
-    // Update se llama una vez por frame
     void Update()
     {
         // Verificar que Vidas.instance no sea null antes de acceder a sus propiedades
@@ -27,7 +26,6 @@ public class HUD : MonoBehaviour
         }
     }
 
-    // Actualizar el texto de los puntos
     public void ActualizarPuntos(int PuntosTotales)
     {
         if (puntos != null)
@@ -36,11 +34,11 @@ public class HUD : MonoBehaviour
         }
     }
 
-    // Desactivar una vida en el HUD
     public void DesactivarVida(int indice)
     {
         if (indice >= 0 && indice < vidasplayer.Length)
         {
+            Debug.Log("Desactivando vida en índice: " + indice);
             vidasplayer[indice].SetActive(false); // Oculta la vida correspondiente
         }
         else
@@ -49,19 +47,8 @@ public class HUD : MonoBehaviour
         }
     }
 
-    // Activar una vida en el HUD (opcional, si necesitas restaurar vidas)
-    public void ActivarVida(int indice)
-    {
-        if (indice >= 0 && indice < vidasplayer.Length)
-        {
-            vidasplayer[indice].SetActive(true); // Muestra la vida correspondiente
-        }
-        else
-        {
-            Debug.LogWarning("Índice fuera de rango en ActivarVida: " + indice);
-        }
-    }
 }
+
 
 
 

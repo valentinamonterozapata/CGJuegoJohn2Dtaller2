@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class Vidas : MonoBehaviour
 {
     public static Vidas instance { get; private set; }
@@ -31,6 +30,8 @@ public class Vidas : MonoBehaviour
 
     public void PerderVida()
     {
+        Debug.Log("PerderVida llamado. Vidas restantes: " + vidasTotales);
+
         if (vidasTotales > 0)
         {
             vidasTotales--;
@@ -45,6 +46,7 @@ public class Vidas : MonoBehaviour
         }
     }
 }
+
 
 
 
