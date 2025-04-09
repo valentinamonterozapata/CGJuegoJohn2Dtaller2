@@ -68,4 +68,12 @@ public class MoverPlayer : MonoBehaviour
         Health = Health - 1;
         if (Health == 0) Destroy(gameObject);
     }
-}
+   
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Enemy")) // Verifica si colisiona con un enemigo
+            {
+                Vidas.instance.PerderVida(); // Llama al método para reducir una vida
+            }
+        }
+    }
