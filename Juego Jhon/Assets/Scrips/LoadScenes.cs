@@ -31,6 +31,11 @@ public class NewBehaviourScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
+    //public void LoadScene2()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    //}
+
     public void Salir()
     {
                Application.Quit();
