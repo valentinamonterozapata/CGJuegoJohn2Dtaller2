@@ -3,7 +3,7 @@ using TMPro;
 
 public class EndSceneManager : MonoBehaviour
 {
-    public TextMeshProUGUI totalTimeText; // Texto para mostrar el tiempo total
+    public TextMeshProUGUI totalTimeText; 
 
     void Start()
     {
