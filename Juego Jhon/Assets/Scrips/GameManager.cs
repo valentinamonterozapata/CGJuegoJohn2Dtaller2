@@ -16,25 +16,20 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;  // Asignar la instancia
             DontDestroyOnLoad(gameObject);  // No destruir el GameManager entre escenas
+            Debug.Log("GameManager persistente entre escenas.");
         }
-        else
-        {
-            Destroy(gameObject);  // Eliminar cualquier instancia duplicada
-        }
-    }
+    } 
 
     public void SumGreenApple(int value)
     {
         AppleGreenCount += value;
-       
     }
 
     public void SumRedApple(int value)
     {
         AppleRedCount += value * 2;  // 2 puntos por cada manzana roja
-        
     }
-}
+} // <-- Se cerró correctamente la clase GameManager
 
 
 
