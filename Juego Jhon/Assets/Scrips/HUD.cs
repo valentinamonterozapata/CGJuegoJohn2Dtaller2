@@ -5,12 +5,12 @@ using TMPro;
 
 public class HUD : MonoBehaviour
 {
-    public TextMeshProUGUI puntos; // Texto para mostrar los puntos
-    public GameObject[] vidasplayer; // Array de GameObjects que representan las vidas del jugador
+    public TextMeshProUGUI puntos; 
+    public GameObject[] vidasplayer; 
 
     void Start()
     {
-        // Inicializar los puntos en 0 al inicio del juego
+        
         if (puntos != null)
         {
             puntos.text = "0";
@@ -19,7 +19,6 @@ public class HUD : MonoBehaviour
 
     void Update()
     {
-        // Verificar que Vidas.instance no sea null antes de acceder a sus propiedades
         if (Vidas.instance != null)
         {
             puntos.text = Vidas.instance.PuntosTotales.ToString();
@@ -39,7 +38,7 @@ public class HUD : MonoBehaviour
         if (indice >= 0 && indice < vidasplayer.Length)
         {
             Debug.Log("Desactivando vida en índice: " + indice);
-            vidasplayer[indice].SetActive(false); // Oculta la vida correspondiente
+            vidasplayer[indice].SetActive(false); 
         }
         else
         {
