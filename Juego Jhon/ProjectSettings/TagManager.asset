@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Heart
   - Enemy
+  - spike
+  - murcielago
   layers:
   - Default
   - TransparentFX
