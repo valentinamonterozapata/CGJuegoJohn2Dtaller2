@@ -6,7 +6,8 @@ using TMPro;
 public class HUD : MonoBehaviour
 {
     public TextMeshProUGUI puntos; 
-    public GameObject[] vidasplayer; 
+    public GameObject[] vidasplayer;
+    public GameObject player;
 
     void Start()
     {

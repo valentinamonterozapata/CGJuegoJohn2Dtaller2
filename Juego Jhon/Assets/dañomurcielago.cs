@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class dañomurcielago : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("player"))
-        {
-            Debug.Log("¡El jugador tocó los murcielagos!");
+    //private void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.CompareTag("player"))
+    //    {
+    //        Debug.Log("¡El jugador tocó los murcielagos!");
 
-            // Puedes eliminar al jugador:
-            Destroy(other.gameObject);
+    //        // Puedes eliminar al jugador:
+    //        Destroy(other.gameObject);
             
             
-            //other.GetComponent<Vidas>().PerderVida();
+    //        //other.GetComponent<Vidas>().PerderVida();
             
-        }
-    }
+    //    }
+    //}
 }
