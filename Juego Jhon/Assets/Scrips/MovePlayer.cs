@@ -1,14 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MoverPlayer : MonoBehaviour
 {
     public GameObject BulletPrefab;
-    public GameObject spike;
-    public GameObject murcielago;
-    
     float horizontal;
     private Rigidbody2D rigiBodyPlaayer;
     public float jumpForce = 5f;
@@ -18,7 +14,7 @@ public class MoverPlayer : MonoBehaviour
     public float checkRadius = 0.5f;
     public LayerMask whatIsGround;
     private float LastShoot;
-    private int Health = 0;
+    private int Health = 20; 
 
     void Start()
     {
@@ -71,29 +67,13 @@ public class MoverPlayer : MonoBehaviour
     {
         Health = Health - 1;
         if (Health == 0) Destroy(gameObject);
-        Debug.Log("PerderVida llamado. Vidas restantes: " + Health);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+   
+        private void OnCollisionEnter2D(Collision2D collision)
         {
             if (collision.gameObject.CompareTag("Enemy")) // Verifica si colisiona con un enemigo
             {
                 Vidas.instance.PerderVida(); // Llama al método para reducir una vida
             }
         }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("spike")) // Verifica si colisiona con un enemigo
-        {
-            Debug.Log("Quita vida");
-            Vidas.instance.PerderVida(); // Llama al método para reducir una vida
-        }
-
-        if (collision.gameObject.CompareTag("murcielago")) // Verifica si colisiona con un enemigo
-        {
-            Debug.Log("Quita vida");
-            Vidas.instance.PerderVida(); // Llama al método para reducir una vida
-        }
     }
-}

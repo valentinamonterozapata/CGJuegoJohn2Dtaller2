@@ -8,12 +8,21 @@ TagManager:
   - Enemy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - spike
   - murcielago
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
+  - RedApple
+  - GreenApple
+  - Star
+  - Star 1
+  - Star 2
+  - Star 3
+>>>>>>> parent of 4e23a94 (Merge remote-tracking branch 'origin/Valentina' into Esteban)
   layers:
   - Default
   - TransparentFX
