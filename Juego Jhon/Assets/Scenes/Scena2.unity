@@ -1306,6 +1306,106 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+<<<<<<< HEAD
+=======
+--- !u!1001 &251229569
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: velocidadmovimiento
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735794518}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[1]
+      value: 
+      objectReference: {fileID: 1918675938}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[2]
+      value: 
+      objectReference: {fileID: 1099072197}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[3]
+      value: 
+      objectReference: {fileID: 68332219}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[4]
+      value: 
+      objectReference: {fileID: 2117606707}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[5]
+      value: 
+      objectReference: {fileID: 1645419254}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[6]
+      value: 
+      objectReference: {fileID: 1006601194}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[7]
+      value: 
+      objectReference: {fileID: 254284774}
+    - target: {fileID: 4695580070065205985, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_Name
+      value: Murcielago (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.082
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &254284773
 GameObject:
   m_ObjectHideFlags: 0
@@ -2549,6 +2649,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2570,6 +2671,17 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.783322
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.618
+      objectReference: {fileID: 0}
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.47
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2607,26 +2719,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike A (1)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+<<<<<<< HEAD
 --- !u!4 &531609047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 531609046}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1001 &551638168
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2648,6 +2767,17 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.81457055
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.668811
+      objectReference: {fileID: 0}
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.3591814
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2685,20 +2815,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike A (3)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+<<<<<<< HEAD
 --- !u!4 &551638169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 551638168}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &556385367
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,12 +4100,113 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7036908106300497979, guid: 2fed8c07586da8840aee50a1040dea63, type: 3}
   m_PrefabInstance: {fileID: 2617250374297711590}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 0}
+=======
+  m_GameObject: {fileID: 731026889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &731026891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731026889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &731026892
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731026889}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &731026893
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731026889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1088406358}
+  - {fileID: 1085737825}
+  - {fileID: 2136751531}
+  - {fileID: 328899601}
+  - {fileID: 961483678}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &731026894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731026889}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d1c40fa2c8d7cc49bf3e0da792697ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  puntos: {fileID: 0}
+  vidasplayer:
+  - {fileID: 2136751530}
+  - {fileID: 328899600}
+  - {fileID: 961483677}
+  - {fileID: 1088406357}
+  - {fileID: 1085737822}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &758436541
 GameObject:
   m_ObjectHideFlags: 0
@@ -5119,7 +5356,266 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051341298}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &1080027373
+=======
+--- !u!1 &1006601193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006601194}
+  m_Layer: 0
+  m_Name: trallecto (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1006601194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006601193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.085, y: -1.396, z: 0.00084343157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051341298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051341299}
+  - component: {fileID: 1051341301}
+  - component: {fileID: 1051341300}
+  m_Layer: 5
+  m_Name: 'TotalTimeText '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1051341299
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1080027374}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000019073, y: -12}
+  m_SizeDelta: {x: 340.73, y: 83.2738}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1051341300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Tiempo Total: 00:00:00'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1051341301
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_CullTransparentMesh: 1
+--- !u!1 &1080027373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080027374}
+  - component: {fileID: 1080027377}
+  - component: {fileID: 1080027376}
+  - component: {fileID: 1080027375}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1080027374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1051341299}
+  m_Father: {fileID: 2031799318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -69.27908, y: 0}
+  m_SizeDelta: {x: 138.5582, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1080027375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c495a09b9330c0b4dbd85f2ae0c712f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalTimeText: {fileID: 1051341300}
+--- !u!114 &1080027376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.92138314, b: 0.94716984, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1080027377
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_CullTransparentMesh: 1
+--- !u!1 &1085737822
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5240,6 +5736,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -82.9, y: 53.6}
+  m_SizeDelta: {x: 29.5443, y: 34.3048}
+  m_Pivot: {x: 0.49999994, y: 0.50000006}
+--- !u!114 &1088406359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088406357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1383638691, guid: 50fafeff7ab74f14b89fc506f46678e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1088406360
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088406357}
+  m_CullTransparentMesh: 1
+--- !u!1 &1099072196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099072197}
+  m_Layer: 0
+  m_Name: trallecto (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099072197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099072196}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.546, y: -2.169, z: 0.00084343157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1123255540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,10 +6363,14 @@ PrefabInstance:
     - {fileID: 1099408659779016739, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
     - {fileID: 4491826669507922255, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
     - {fileID: 4816084634237524594, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
+<<<<<<< HEAD
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8978957378432196938, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1291275770}
+=======
+    m_AddedGameObjects: []
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
 --- !u!114 &1256630685 stripped
@@ -5807,11 +6384,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!224 &1256630686 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8978957378432196938, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
   m_PrefabInstance: {fileID: 1256630684}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1261685991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5896,6 +6476,107 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1271862345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: distanciaminima
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: velocidadmovimiento
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[0]
+      value: 
+      objectReference: {fileID: 880128760}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[1]
+      value: 
+      objectReference: {fileID: 601949898}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[2]
+      value: 
+      objectReference: {fileID: 1990213244}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[3]
+      value: 
+      objectReference: {fileID: 319870459}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[4]
+      value: 
+      objectReference: {fileID: 2117606707}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[5]
+      value: 
+      objectReference: {fileID: 1645419254}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[6]
+      value: 
+      objectReference: {fileID: 1006601194}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[7]
+      value: 
+      objectReference: {fileID: 254284774}
+    - target: {fileID: 4695580070065205985, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_Name
+      value: Murcielago (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.399
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
 --- !u!1 &1271878051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6604,6 +7285,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -6625,6 +7307,17 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.2413317
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.408
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6662,20 +7355,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike A (2)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
+<<<<<<< HEAD
 --- !u!4 &1423525464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 1423525463}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1447541502
 GameObject:
   m_ObjectHideFlags: 0
@@ -45342,6 +46041,40 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2117606706
+<<<<<<< HEAD
+=======
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2117606707}
+  m_Layer: 0
+  m_Name: trallecto
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117606707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117606706}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.762, y: -1.689, z: 0.00084343157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2136751530
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45480,11 +46213,23 @@ PrefabInstance:
 --- !u!1001 &5075053103417272874
 PrefabInstance:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136751530}
+  m_CullTransparentMesh: 1
+--- !u!1001 &2692597105540734762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 444523294945951278, guid: 49baaafe7b7487845a821fd3fdfd8468, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -45589,11 +46334,89 @@ PrefabInstance:
       propertyPath: puntosPatrullaje.Array.data[3]
       value: 
       objectReference: {fileID: 68332219}
+=======
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: distanciaminima
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: velocidadmovimiento
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[0]
+      value: 
+      objectReference: {fileID: 1006601194}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[1]
+      value: 
+      objectReference: {fileID: 2117606707}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[2]
+      value: 
+      objectReference: {fileID: 1645419254}
+    - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: puntosPatrullaje.Array.data[3]
+      value: 
+      objectReference: {fileID: 254284774}
+    - target: {fileID: 4695580070065205985, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_Name
+      value: Murcielago
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.287
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854185161782220944, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 49baaafe7b7487845a821fd3fdfd8468, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -45615,7 +46438,11 @@ SceneRoots:
   - {fileID: 1681169036}
   - {fileID: 1885954056}
   - {fileID: 922587596}
+<<<<<<< HEAD
   - {fileID: 2617250374297711590}
+=======
+  - {fileID: 731026893}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   - {fileID: 1479414050}
   - {fileID: 625857084}
   - {fileID: 206027594}
@@ -45624,8 +46451,17 @@ SceneRoots:
   - {fileID: 1491551487}
   - {fileID: 2031799318}
   - {fileID: 1522430885}
+<<<<<<< HEAD
   - {fileID: 1419379407}
   - {fileID: 5075053103417272874}
+=======
+  - {fileID: 531609046}
+  - {fileID: 1423525463}
+  - {fileID: 551638168}
+  - {fileID: 2692597105540734762}
+  - {fileID: 1271862345}
+  - {fileID: 251229569}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   - {fileID: 1006601194}
   - {fileID: 2117606707}
   - {fileID: 1645419254}

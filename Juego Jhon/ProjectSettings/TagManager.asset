@@ -6,8 +6,11 @@ TagManager:
   tags:
   - Heart
   - Enemy
+<<<<<<< HEAD
   - spike
   - murcielago
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   layers:
   - Default
   - TransparentFX
