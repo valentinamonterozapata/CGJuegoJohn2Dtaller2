@@ -9,6 +9,8 @@ public class GameControllerScene1 : MonoBehaviour
     private TextMeshProUGUI txtGreenApple;  // Para las manzanas verdes
     [SerializeField]
     private TextMeshProUGUI txtRedApple;    // Para las manzanas rojas
+    [SerializeField]
+    private TextMeshProUGUI txtStar;  // Para las estrellas
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +20,10 @@ public class GameControllerScene1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         ShowGreenApple();
-        ShowRedApple();  // Mostrar el contador de manzanas rojas
+        ShowRedApple();
+        ShowStar();
     }
 
     // Mostrar el contador de manzanas verdes
@@ -32,5 +36,11 @@ public class GameControllerScene1 : MonoBehaviour
     public void ShowRedApple()
     {
         txtRedApple.text = GameManager.Instance.AppleRedCount.ToString();
+
     }
+    public void ShowStar()
+    {
+        txtStar.text = GameManager.Instance.StarCount.ToString();  // Mostrar el contador de estrellas
+    }
+
 }

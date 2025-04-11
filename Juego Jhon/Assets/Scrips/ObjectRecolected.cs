@@ -6,24 +6,30 @@ public class ObjectRecolected : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))  // Verifica que la colisión sea con el jugador
+        if (collision.CompareTag("Player"))
         {
-            if (gameObject.CompareTag("GreenApple"))  // Si la manzana es verde
+            if (gameObject.CompareTag("Star 1") || gameObject.CompareTag("Star 2") || gameObject.CompareTag("Star 3"))
             {
-                GameManager.Instance.SumGreenApple(1);  // Sumar 1 manzana verde al contador
+                GameManager.Instance.SumStar(1);  // Sumar 1 estrella al contador
+                Debug.Log("Estrella recolectada. Total: " + GameManager.Instance.StarCount);
+            }
+            else if (gameObject.CompareTag("GreenApple"))
+            {
+                GameManager.Instance.SumGreenApple(1);
                 Debug.Log("Manzana verde recolectada. Total: " + GameManager.Instance.AppleGreenCount);
             }
-            else if (gameObject.CompareTag("RedApple"))  // Si la manzana es roja
+            else if (gameObject.CompareTag("RedApple"))
             {
-                GameManager.Instance.SumRedApple(1);  // Sumar 1 manzana roja al contador
+                GameManager.Instance.SumRedApple(1);
                 Debug.Log("Manzana roja recolectada. Total: " + GameManager.Instance.AppleRedCount);
             }
 
-            Destroy(gameObject);
-            Destroy(gameObject);// Destruir la manzana después de ser recolectada
+            // Destruir el objeto después de haber sido recolectado
+            Destroy(gameObject);  // Destruir la estrella (o cualquier objeto que se recoja)
         }
     }
 }
+
 
 
 
