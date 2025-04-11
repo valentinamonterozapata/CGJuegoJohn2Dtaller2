@@ -162,6 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ae4c501e38572468b8813521504338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 0}
   jumpForce: 3
   groundCheck: {fileID: 1720993021017004212}
   checkRadius: 0.5

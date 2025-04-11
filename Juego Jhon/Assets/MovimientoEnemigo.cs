@@ -7,6 +7,7 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private float velocidad = 2f;
     [SerializeField] private float distancia = 1f;
     [SerializeField] private Transform controladorPiso;
+    [SerializeField] private Transform controladorPiso2;
     [SerializeField] private LayerMask capaSuelo;
     [SerializeField] private bool moviendoDerecha = true;
     [SerializeField] private Transform jugador; 
@@ -24,7 +25,7 @@ public class MovimientoEnemigo : MonoBehaviour
     {
         // Raycast para verificar si hay suelo adelante
         RaycastHit2D infoSuelo = Physics2D.Raycast(controladorPiso.position, Vector2.down, distancia, capaSuelo);
-
+        RaycastHit2D infoSuelo2 = Physics2D.Raycast(controladorPiso2.position, Vector2.down, distancia, capaSuelo);
         // Movimiento horizontal
         rb.velocity = new Vector2(velocidad * direccion, rb.velocity.y);
 
@@ -33,6 +34,7 @@ public class MovimientoEnemigo : MonoBehaviour
         {
             Girar();
         }
+       
     }
 
     private void Girar()
@@ -48,6 +50,7 @@ public class MovimientoEnemigo : MonoBehaviour
         {
             Gizmos.color = Color.red;
             Gizmos.DrawLine(controladorPiso.position, controladorPiso.position + Vector3.down * distancia);
+            Gizmos.DrawLine(controladorPiso2.position, controladorPiso2.position + Vector3.down * distancia);
         }
     }
 }
