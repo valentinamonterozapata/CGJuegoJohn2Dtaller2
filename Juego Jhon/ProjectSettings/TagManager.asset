@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Heart
   - Enemy
+  - RedApple
+  - GreenApple
+  - Star
+  - Star 1
+  - Star 2
+  - Star 3
   layers:
   - Default
   - TransparentFX

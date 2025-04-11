@@ -1,49 +1,44 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    public static GameManager Instance;  // Instancia estática
 
-    private int appleGreenCount = 0;
-    public GameObject goldKeyPrefab;
-    public Vector2 keySpawnPosition;
+    public int AppleGreenCount = 0;
+    public int AppleRedCount = 0;
+    public int StarCount = 0;  // Contador de estrellas
+
+    public TMPro.TextMeshProUGUI txtGreenApple;
+    public TMPro.TextMeshProUGUI txtRedApple;
+    public TMPro.TextMeshProUGUI txtStar;
 
     private void Awake()
     {
         if (Instance == null)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            Instance = this;  // Asignar la instancia
+            DontDestroyOnLoad(gameObject);  // No destruir el GameManager entre escenas
+            Debug.Log("GameManager persistente entre escenas.");
         }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    } 
 
-    private void Start()
+    public void SumGreenApple(int value)
     {
-        if (goldKeyPrefab != null)
-        {
-            Instantiate(goldKeyPrefab, keySpawnPosition, Quaternion.identity);
-        }
+        AppleGreenCount += value;
     }
 
-    public void sumValue(int value)
+    public void SumRedApple(int value)
     {
-        appleGreenCount += value;
-        Debug.Log("Manzanas recolectadas: " + appleGreenCount);
+        AppleRedCount += value * 2;  // 2 puntos por cada manzana roja
     }
 
-    public void resetValue()
+
+    public void SumStar(int value)
     {
-        appleGreenCount = 0;
+        StarCount += value;
+        txtStar.text = StarCount.ToString();  // Actualiza el texto de estrellas en la UI
     }
+} // <-- Se cerró correctamente la clase GameManager
 
-    public int AppleGreenCount { get => appleGreenCount; set => appleGreenCount = value; }
-}
 
 
