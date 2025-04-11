@@ -8,6 +8,12 @@ TagManager:
   - Enemy
   - spike
   - murcielago
+  - Star 1
+  - Star 2
+  - Star 3
+  - GreenApple
+  - RedApple
+  - bandera
   layers:
   - Default
   - TransparentFX

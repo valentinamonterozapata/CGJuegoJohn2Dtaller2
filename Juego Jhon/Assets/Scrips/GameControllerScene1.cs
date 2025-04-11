@@ -20,7 +20,7 @@ public class GameControllerScene1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         ShowGreenApple();
         ShowRedApple();
         ShowStar();
@@ -43,4 +43,4 @@ public class GameControllerScene1 : MonoBehaviour
         txtStar.text = GameManager.Instance.StarCount.ToString();  // Mostrar el contador de estrellas
     }
 
-}
+}   

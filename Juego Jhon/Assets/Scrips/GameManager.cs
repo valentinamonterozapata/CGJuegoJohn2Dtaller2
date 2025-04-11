@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);  // No destruir el GameManager entre escenas
             Debug.Log("GameManager persistente entre escenas.");
         }
-    } 
+    }
 
     public void SumGreenApple(int value)
     {
@@ -39,6 +39,4 @@ public class GameManager : MonoBehaviour
         txtStar.text = StarCount.ToString();  // Actualiza el texto de estrellas en la UI
     }
 } // <-- Se cerró correctamente la clase GameManager
-
-
 
