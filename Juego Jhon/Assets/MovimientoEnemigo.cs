@@ -9,6 +9,7 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private Transform controladorPiso;
     [SerializeField] private LayerMask capaSuelo;
     [SerializeField] private bool moviendoDerecha = true;
+    [SerializeField] private Transform jugador; 
 
     private Rigidbody2D rb;
     private int direccion = 1; // 1 = derecha, -1 = izquierda
@@ -36,9 +37,9 @@ public class MovimientoEnemigo : MonoBehaviour
 
     private void Girar()
     {
-        direccion *= -1; // Cambiar dirección
         moviendoDerecha = !moviendoDerecha;
-        transform.localScale = new Vector3(direccion, 1, 1); // Voltear sprite
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+        velocidad *= -1; // Cambiar la dirección de la velocidad
     }
 
     private void OnDrawGizmos()
