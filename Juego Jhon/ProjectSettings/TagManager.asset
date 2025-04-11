@@ -7,8 +7,11 @@ TagManager:
   - Heart
   - Enemy
 <<<<<<< HEAD
+<<<<<<< HEAD
   - spike
   - murcielago
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   layers:

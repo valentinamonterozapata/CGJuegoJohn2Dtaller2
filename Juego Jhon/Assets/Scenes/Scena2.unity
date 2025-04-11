@@ -1307,7 +1307,10 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1001 &251229569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1405,6 +1408,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &254284773
 GameObject:
@@ -2650,6 +2656,7 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2672,6 +2679,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.783322
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2681,6 +2690,9 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.47
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2720,10 +2732,13 @@ PrefabInstance:
       value: spike A (1)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
@@ -2732,11 +2747,14 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &531609047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 531609046}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1001 &551638168
@@ -2745,6 +2763,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
@@ -2768,6 +2787,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.81457055
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2777,6 +2798,9 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.3591814
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -2816,10 +2840,13 @@ PrefabInstance:
       value: spike A (3)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
@@ -2828,11 +2855,14 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &551638169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 551638168}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &556385367
@@ -4198,7 +4228,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   puntos: {fileID: 0}
   vidasplayer:
   - {fileID: 2136751530}
@@ -5614,6 +5647,261 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080027373}
   m_CullTransparentMesh: 1
+--- !u!1 &1006601193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006601194}
+  m_Layer: 0
+  m_Name: trallecto (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1006601194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006601193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.085, y: -1.396, z: 0.00084343157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051341298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051341299}
+  - component: {fileID: 1051341301}
+  - component: {fileID: 1051341300}
+  m_Layer: 5
+  m_Name: 'TotalTimeText '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1051341299
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1080027374}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000019073, y: -12}
+  m_SizeDelta: {x: 340.73, y: 83.2738}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1051341300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Tiempo Total: 00:00:00'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1051341301
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051341298}
+  m_CullTransparentMesh: 1
+--- !u!1 &1080027373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080027374}
+  - component: {fileID: 1080027377}
+  - component: {fileID: 1080027376}
+  - component: {fileID: 1080027375}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1080027374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1051341299}
+  m_Father: {fileID: 2031799318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -69.27908, y: 0}
+  m_SizeDelta: {x: 138.5582, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1080027375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c495a09b9330c0b4dbd85f2ae0c712f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalTimeText: {fileID: 1051341300}
+--- !u!114 &1080027376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.92138314, b: 0.94716984, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1080027377
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080027373}
+  m_CullTransparentMesh: 1
 --- !u!1 &1085737822
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 GameObject:
@@ -5812,6 +6100,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1123255540
 GameObject:
@@ -6364,10 +6655,14 @@ PrefabInstance:
     - {fileID: 4491826669507922255, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
     - {fileID: 4816084634237524594, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8978957378432196938, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1291275770}
+=======
+    m_AddedGameObjects: []
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
     m_AddedGameObjects: []
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
@@ -6385,11 +6680,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1256630686 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8978957378432196938, guid: a78ecce544d242c4cb04c7b55acc28d8, type: 3}
   m_PrefabInstance: {fileID: 1256630684}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1261685991
@@ -7286,6 +7584,7 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1419379407}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -7308,6 +7607,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.2413317
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -7317,6 +7618,9 @@ PrefabInstance:
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.408
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
       objectReference: {fileID: 0}
     - target: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
@@ -7356,10 +7660,13 @@ PrefabInstance:
       value: spike A (2)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 332251132673351192, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
       propertyPath: m_TagString
       value: spike
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
@@ -7368,11 +7675,14 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1423525464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 251159525491774633, guid: 5259e268623b4c44fb10e2d64a0b1cbd, type: 3}
   m_PrefabInstance: {fileID: 1423525463}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 --- !u!1 &1447541502
@@ -46042,7 +46352,41 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!1 &2117606706
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2117606707}
+  m_Layer: 0
+  m_Name: trallecto
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117606707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117606706}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.762, y: -1.689, z: 0.00084343157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2136751530
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46223,12 +46567,16 @@ PrefabInstance:
 --- !u!1001 &2692597105540734762
 PrefabInstance:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 444523294945951278, guid: 49baaafe7b7487845a821fd3fdfd8468, type: 3}
       propertyPath: m_IsTrigger
@@ -46335,6 +46683,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 68332219}
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     - target: {fileID: 1163331790791960885, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
       propertyPath: distanciaminima
       value: 0.2
@@ -46407,13 +46757,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 49baaafe7b7487845a821fd3fdfd8468, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
   m_SourcePrefab: {fileID: 100100000, guid: da01eac16ed517248b9e9eee28a5e976, type: 3}
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
@@ -46439,7 +46796,11 @@ SceneRoots:
   - {fileID: 1885954056}
   - {fileID: 922587596}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2617250374297711590}
+=======
+  - {fileID: 731026893}
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
 =======
   - {fileID: 731026893}
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
@@ -46452,15 +46813,21 @@ SceneRoots:
   - {fileID: 2031799318}
   - {fileID: 1522430885}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1419379407}
   - {fileID: 5075053103417272874}
 =======
+=======
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   - {fileID: 531609046}
   - {fileID: 1423525463}
   - {fileID: 551638168}
   - {fileID: 2692597105540734762}
   - {fileID: 1271862345}
   - {fileID: 251229569}
+<<<<<<< HEAD
+>>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
+=======
 >>>>>>> parent of 99f595d (Merge remote-tracking branch 'origin/Rangel' into Esteban)
   - {fileID: 1006601194}
   - {fileID: 2117606707}
