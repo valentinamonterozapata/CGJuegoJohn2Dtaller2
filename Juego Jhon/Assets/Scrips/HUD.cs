@@ -46,20 +46,6 @@ public class HUD : MonoBehaviour
             Debug.LogWarning("Índice fuera de rango en DesactivarVida: " + indice);
         }
     }
-    public void ActivarTodasVidas()
-    {
-        for (int i = 0; i < vidasplayer.Length; i++)
-        {
-            vidasplayer[i].SetActive(true);
-        }
-        Debug.Log("Todas las vidas han sido activadas en el HUD.");
-    }
-
-
-
-
-
-
 
 }
 

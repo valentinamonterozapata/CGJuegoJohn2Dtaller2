@@ -28,7 +28,7 @@ public class AppleSpawner : MonoBehaviour
             PlatformArea platformArea = platformAreas[Random.Range(0, platformAreas.Count)];
             Vector2 spawnPosition = platformArea.GetRandomPosition();
 
-
+            
             if (!usedPositions.Contains(spawnPosition))
             {
                 usedPositions.Add(spawnPosition);
