@@ -12,6 +12,8 @@ public class Vidas : MonoBehaviour
 
     private int vidasTotales = 5;
 
+    [SerializeField] public float limiteCaidaY; // Altura mínima antes de reaparecer
+
     void Awake()
     {
         if (instance != null && instance != this)
@@ -20,6 +22,15 @@ public class Vidas : MonoBehaviour
             return;
         }
         instance = this;
+    }
+
+    void Update()
+    {
+        // Verifica si la posición en Y del objeto es menor que el límite
+        if (transform.position.y < limiteCaidaY)
+        {
+            PerderVida(); // Llama al método para perder una vida
+        }
     }
 
     public void SumarPuntos(int puntosASumar)
@@ -45,8 +56,19 @@ public class Vidas : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+
+    public void RestaurarVidas()
+    {
+        // Supongamos que 5 es la cantidad máxima de vidas.
+        vidasTotales = 5;
+
+        // Actualiza el HUD para activar todas las vidas.
+        hud.ActivarTodasVidas();
+
+        Debug.Log("Vidas restauradas a: " + vidasTotales);
+    }
+
+
+
+
 }
-
-
-
-
